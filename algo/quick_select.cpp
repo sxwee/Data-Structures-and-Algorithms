@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 /**
@@ -42,10 +43,34 @@ int quick_select(vector<int> &arr, int left, int right, int k)
         return quick_select(arr, privot_idx + 1, right, k);
 }
 
+/**
+ * 快速选择（非递归版）
+ */
+int quick_select(vector<int> &arr, int k)
+{
+    int left = 0, right = arr.size() - 1;
+    while(left < right)
+    {
+        int privot_idx = left + rand() % (right - left + 1);
+        privot_idx = partition(arr, left, right, privot_idx);
+        if(privot_idx == k - 1)
+            return arr[privot_idx];
+        else if(privot_idx > k - 1)
+            right = privot_idx - 1;
+        else
+            left = privot_idx + 1;
+    }
+    return arr[right];
+}
+
 int main()
 {
     vector<int> arr = {1, 4, 2, 7, 10, 0, 3};
     int k = 5;
-    cout << quick_select(arr, 0, arr.size() - 1, k) << endl; // 5
+    cout << quick_select(arr, 0, arr.size() - 1, k) << endl; // 4
+    cout << quick_select(arr, k) << endl; // 4
+    // https://en.cppreference.com/w/cpp/algorithm/nth_element
+    nth_element(arr.begin(), arr.begin() + k - 1, arr.end());
+    cout << arr[k - 1] << endl; // 4
     return 0;
 }
