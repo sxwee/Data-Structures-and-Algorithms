@@ -94,7 +94,6 @@ namespace binary_tree
         {
             if(root)
             {
-                cout << root->data << "-" << 0 << endl;
                 s.push({root, 0});
                 root = root->lchild;
             }
@@ -107,12 +106,6 @@ namespace binary_tree
                 {
                     s.push({root, 1});
                     root = root->rchild;
-                    if(root)
-                    {
-                        cout << "r " << root->data << endl;
-                        if(root->data == 7)
-                            cout << "hello" << endl;
-                    }
                 }
                 // 从右子树返回，此时需要访问根节点
                 else{
@@ -120,8 +113,6 @@ namespace binary_tree
                     root = NULL;
                 }
             }
-            if (root)
-                cout << "b " << root->data << endl;
         }
     }
 
