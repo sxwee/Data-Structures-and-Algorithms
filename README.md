@@ -37,7 +37,7 @@
 - [ ] 插入排序
 - [ ] 归并排序
 - [ ] 快排
-  - [x] 快速选择算法
+  - [x] [快速选择算法](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/A1.%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E7%AE%97%E6%B3%95.md)
 
 - [ ] 堆排序
 
