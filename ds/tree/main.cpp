@@ -1,7 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <queue>
-#include <stack>
 #include "binary_tree.h"
 
 using namespace std;
@@ -23,8 +20,8 @@ int main()
     lastorder_nre(root, lorder1); // 10 11 7 4 5 2 8 9 6 3 1
     layer_travel(root, lt); // 1 2 3 4 5 6 7 8 9 10 11
     // 获取二叉树的树高
-    cout << "tree height: " << height(root) << endl;
+    cout << "tree height: " << height(root) << endl; // 5
     // 判断二叉树是否平衡
-    cout << "is balanced: " << is_balanced(root) << endl;
+    cout << "is balanced: " << is_balanced(root) << endl; // 0
     return 0;
 }
