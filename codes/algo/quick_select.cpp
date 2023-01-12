@@ -10,7 +10,7 @@ using namespace std;
 int partition(vector<int> &arr, int left, int right, int privot_idx)
 {
     int privot_val = arr[privot_idx];
-    // 将基准元素移动到最右端
+    // 将基准元素移动到最右端   
     swap(arr[right], arr[privot_idx]);
     int store_idx = left;
     for (int i = left; i < right; i++)

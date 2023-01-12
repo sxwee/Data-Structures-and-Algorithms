@@ -19,14 +19,20 @@ namespace btree
         TreeNode(int data)
         {
             this->data = data;
-            this->lchild = NULL;
-            this->rchild = NULL;
+            this->lchild = nullptr;
+            this->rchild = nullptr;
         }
 
         TreeNode()
         {
-            this->lchild = NULL;
-            this->rchild = NULL;
+            this->lchild = nullptr;
+            this->rchild = nullptr;
+        }
+
+        ~TreeNode()
+        {
+            delete this->lchild;
+            delete this->rchild;
         }
     };
 
