@@ -15,6 +15,8 @@
   - [x] [平衡二叉树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D2.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md)
   - [ ] 二叉搜索树
   
+  - [ ] 平衡二叉搜索树
+  
   - [ ] B树
   - [ ] 红黑树
   
