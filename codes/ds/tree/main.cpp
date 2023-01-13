@@ -8,7 +8,7 @@ int main()
 {
     vector<int> arr = {
         1, 2, 3, 4, 5, 6, EMPTY, EMPTY, 7, EMPTY, EMPTY, 8, 9, 10, 11, EMPTY, EMPTY, EMPTY, EMPTY};
-    
+
     /***************测试二叉树的构建与遍历算法***************/
     // using namespace btree;
     // TreeNode *root = build_binary_tree(arr);
@@ -24,9 +24,13 @@ int main()
     // cout << "tree height: " << height(root) << endl; // 5
     // // 判断二叉树是否平衡
     // cout << "is balanced: " << is_balanced(root) << endl; // 0
-    
 
     /***************测试二叉树搜索树的构建与常见操作***************/
-
+    using namespace bst;
+    vector<int> nums = {8, 3, 1, 6, 4, 7, 10, 14, 13};
+    TreeNode *root = build_binary_search_tree(nums);
+    TreeNode *p = search_node(root, 10);
+    root = insert_node(root, 15);
+    delete_node(root, 6);
     return 0;
 }
