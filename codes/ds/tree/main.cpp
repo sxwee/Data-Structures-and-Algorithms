@@ -1,6 +1,7 @@
 #include <iostream>
-#include "binary_tree.h"
-#include "bst.h"
+#include "bt.h" // binary tree
+#include "bst.h" // binary search tree
+#include "bbt.h" // balanced binary tree
 
 using namespace std;
 
@@ -20,17 +21,18 @@ int main()
     // lastorder(root, lorder); // 10 11 7 4 5 2 8 9 6 3 1
     // lastorder_nre(root, lorder1); // 10 11 7 4 5 2 8 9 6 3 1
     // layer_travel(root, lt); // 1 2 3 4 5 6 7 8 9 10 11
-    // // 获取二叉树的树高
-    // cout << "tree height: " << height(root) << endl; // 5
-    // // 判断二叉树是否平衡
-    // cout << "is balanced: " << is_balanced(root) << endl; // 0
+
+    /***************测试平衡二叉树的构建与常见操作***************/
+    
 
     /***************测试二叉树搜索树的构建与常见操作***************/
-    using namespace bst;
-    vector<int> nums = {8, 3, 1, 6, 4, 7, 10, 14, 13};
-    TreeNode *root = build_binary_search_tree(nums);
-    TreeNode *p = search_node(root, 10);
-    root = insert_node(root, 15);
-    delete_node(root, 6);
+    // using namespace bst;
+    // vector<int> nums = {8, 3, 1, 6, 4, 7, 10, 14, 13};
+    // TreeNode *root = build_binary_search_tree(nums);
+    // TreeNode *p = search_node(root, 10);
+    // root = insert_node(root, 15);
+    // delete_node(root, 6);
+
+
     return 0;
 }

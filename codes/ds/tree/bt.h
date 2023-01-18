@@ -1,4 +1,5 @@
 
+// binary tree
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -62,7 +63,4 @@ namespace btree
 
     // 求二叉树的树高
     int height(TreeNode * root);
-
-    // 判断二叉树是否为高度平衡二叉树
-    bool is_balanced(TreeNode * root);
 }
