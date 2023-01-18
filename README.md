@@ -8,12 +8,12 @@
 - [ ] 散列表
 - [ ] 树
   - [x] [二叉树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D1.%E6%A0%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
-  - [x] [二叉搜索树]()
-  - [x] [平衡二叉树]()
-    - [ ] AVL树
+  - [x] [二叉搜索树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D2.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md)
+  - [x] [平衡二叉树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D3.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md)
+    - [ ] [AVL树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D4.AVL%E6%A0%91.md)
     - [ ] 红黑树
   - [ ] B树
-  - [ ] 红黑树
+  - [ ] B+树
 - [ ] 图
   - [ ] 邻接矩阵
   - [ ] 邻接表
