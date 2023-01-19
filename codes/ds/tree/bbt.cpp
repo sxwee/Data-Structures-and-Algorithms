@@ -166,4 +166,5 @@ bbt::TreeNode *bbt::insert_node(TreeNode *root, int k)
 // 删除结点
 bbt::TreeNode *bbt::delete_node(TreeNode *root, int k)
 {
+    return root;
 }
