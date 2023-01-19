@@ -1,7 +1,7 @@
 #include <iostream>
-#include "bt.h" // binary tree
+#include "bt.h"  // binary tree
 #include "bst.h" // binary search tree
-#include "bbt.h" // balanced binary tree
+#include "bbt.h" // val tree
 
 using namespace std;
 
@@ -22,9 +22,6 @@ int main()
     // lastorder_nre(root, lorder1); // 10 11 7 4 5 2 8 9 6 3 1
     // layer_travel(root, lt); // 1 2 3 4 5 6 7 8 9 10 11
 
-    /***************测试平衡二叉树的构建与常见操作***************/
-    
-
     /***************测试二叉树搜索树的构建与常见操作***************/
     // using namespace bst;
     // vector<int> nums = {8, 3, 1, 6, 4, 7, 10, 14, 13};
@@ -33,6 +30,13 @@ int main()
     // root = insert_node(root, 15);
     // delete_node(root, 6);
 
-
+    /***************测试AVL树的构建与常见操作***************/
+    using namespace bbt;
+    vector<int> nums = {1, 4, 2, 8, 10, 14, 6, 3};
+    TreeNode *root = nullptr;
+    for (int num : nums)
+    {
+        root = insert_node(root, num);
+    }
     return 0;
 }
