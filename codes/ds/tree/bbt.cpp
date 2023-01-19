@@ -26,7 +26,7 @@ bbt::TreeNode *bbt::insert_node(TreeNode *root, int k)
     {
         if (p->bf)
         {
-            fz = p;
+            fz = f;
             z = p;
         }
         f = p;
@@ -105,6 +105,7 @@ bbt::TreeNode *bbt::insert_node(TreeNode *root, int k)
                     z->bf = 0, y->bf = 1;
                     break;
                 }
+                x->bf = 0;
                 // 连接x与原z的双亲结点
                 if (!fz)
                     root = x;
@@ -121,7 +122,7 @@ bbt::TreeNode *bbt::insert_node(TreeNode *root, int k)
                 y = z->rchild;
                 z->rchild = y->lchild;
                 y->lchild = z;
-                y->bf = 0;
+                z->bf = y->bf = 0;
                 // 连接y与原z的双亲结点
                 if (!fz)
                     root = y;
@@ -149,6 +150,7 @@ bbt::TreeNode *bbt::insert_node(TreeNode *root, int k)
                     z->bf = 1, y->bf = 0;
                     break;
                 }
+                x->bf = 0;
                 //  连接x与原z的双亲结点
                 if (!fz)
                     root = x;

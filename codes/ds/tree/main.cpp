@@ -30,7 +30,7 @@ int main()
     // root = insert_node(root, 15);
     // delete_node(root, 6);
 
-    /***************测试AVL树的构建与常见操作***************/
+    /***************测试AVL树***************/
     using namespace bbt;
     vector<int> nums = {1, 4, 2, 8, 10, 14, 6, 3};
     TreeNode *root = nullptr;
