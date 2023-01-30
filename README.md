@@ -11,7 +11,7 @@
   - [x] [二叉搜索树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D2.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md)
   - [x] [平衡二叉树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D3.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md)
     - [x] [AVL树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D4.AVL%E6%A0%91.md)
-    - [ ] 红黑树
+    - [ ] [红黑树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D5.%E7%BA%A2%E9%BB%91%E6%A0%91.md)
   - [ ] B树
   - [ ] B+树
 - [ ] 图
