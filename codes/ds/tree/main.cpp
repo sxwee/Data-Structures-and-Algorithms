@@ -2,6 +2,7 @@
 #include "bt.h"  // binary tree
 #include "bst.h" // binary search tree
 #include "bbt.h" // val tree
+#include "rbt.h" // red-black tree
 
 using namespace std;
 
@@ -31,12 +32,23 @@ int main()
     // delete_node(root, 6);
 
     /***************测试AVL树***************/
-    using namespace bbt;
+    // using namespace bbt;
+    // vector<int> nums = {1, 4, 2, 8, 10, 14, 6, 3};
+    // TreeNode *root = nullptr;
+    // for (int num : nums)
+    // {
+    //     root = insert_node(root, num);
+    // }
+
+    /***************测试红黑树***************/
+    using namespace rbt;
     vector<int> nums = {1, 4, 2, 8, 10, 14, 6, 3};
-    TreeNode *root = nullptr;
+    RBTree t;
     for (int num : nums)
     {
-        root = insert_node(root, num);
+        TreeNode *z = new TreeNode(num);
+        rb_insert(t, z);
     }
+    rb_delete(t, 4);
     return 0;
 }
