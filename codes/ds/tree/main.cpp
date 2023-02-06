@@ -41,14 +41,14 @@ int main()
     // }
 
     /***************测试红黑树***************/
-    using namespace rbt;
-    vector<int> nums = {1, 4, 2, 8, 10, 14, 6, 3};
-    RBTree t;
-    for (int num : nums)
-    {
-        TreeNode *z = new TreeNode(num);
-        rb_insert(t, z);
-    }
-    rb_delete(t, 4);
+    // using namespace rbt;
+    // vector<int> nums = {1, 4, 2, 8, 10, 14, 6, 3};
+    // RBTree t;
+    // for (int num : nums)
+    // {
+    //     TreeNode *z = new TreeNode(num);
+    //     rb_insert(t, z);
+    // }
+    // rb_delete(t, 4);
     return 0;
 }
