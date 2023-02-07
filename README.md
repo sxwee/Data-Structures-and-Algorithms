@@ -39,7 +39,7 @@
 
 **字符串算法**
 
-- [x] KMP算法
+- [x] [KMP算法](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/A2.KMP%E7%AE%97%E6%B3%95.md)
 
 **图算法**
 
