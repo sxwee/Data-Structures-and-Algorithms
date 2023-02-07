@@ -30,7 +30,8 @@ vector<int> get_next(string t)
     next[0] = -1;
     for (int j = 1; t[j]; j++)
     {
-        int k = next[j - 1];
+        int k = next[j - 1]; // 初始化为当前字符的前一个字符的最长proper prefix的长度
+        // 若t[j-1] = t[k],而t[0..k-1] = t[j-k..j-1],可得t[0..k] = t[j-k..j],即next[j] = k + 1
         while (k != -1 && t[j - 1] != t[k])
             k = next[k];
         next[j] = k + 1;
