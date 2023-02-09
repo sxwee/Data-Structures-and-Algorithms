@@ -2,7 +2,7 @@
 
 ## 数据结构
 
-- [ ] 链表
+- [x] [链表](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D8.%E9%93%BE%E8%A1%A8.md)
 - [ ] 栈
 - [ ] 队列
 - [ ] 散列表
