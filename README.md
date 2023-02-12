@@ -51,4 +51,6 @@
 - [ ] Bellman-Ford算法
 - [ ] Dijsktra算法
 
-**LRU算法**
+**操作系统算法**
+
+- [x] [LRU算法（页面置换）](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/A3.LRU%E7%AE%97%E6%B3%95.md)
