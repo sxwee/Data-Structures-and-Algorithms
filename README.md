@@ -3,7 +3,7 @@
 ## 数据结构
 
 - [x] [链表](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D8.%E9%93%BE%E8%A1%A8.md)
-- [ ] 栈
+- [x] [栈](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D9.%E6%A0%88.md)
 - [ ] 队列
 - [ ] 散列表
 - [ ] 树
