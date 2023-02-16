@@ -4,7 +4,7 @@
 
 - [x] [链表](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D8.%E9%93%BE%E8%A1%A8.md)
 - [x] [栈](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D9.%E6%A0%88.md)
-- [ ] 队列
+- [x] [队列](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D10.%E9%98%9F%E5%88%97.md)
 - [ ] 散列表
 - [ ] 树
   - [x] [二叉树](https://github.com/sxwee/Data-Structures-and-Algorithms/blob/main/docs/D1.%E6%A0%91%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
